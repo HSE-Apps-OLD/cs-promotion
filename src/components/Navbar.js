@@ -39,8 +39,10 @@ const Navbar = () => {
             }}>
                 <div style={block}>
                     <img src={logo} style={{width:"50px"}}/>
+                    &nbsp;&nbsp; 
                     <div style={{color:"white", fontWeight:"500", fontSize:"24px"}}>HSE CS</div>
                 </div>
+
                 {width > 1200?
                     <>
                         <div style={{...block, height:"30px"}}>
@@ -74,7 +76,7 @@ const Navbar = () => {
                             overlay= {
                                 <Menu
                                     onClick={(e) => {setTab(e.key)}}
-                                    style={{margin:"25px -10px 0 0", background:"gray", borderRadius:"10px"}}
+                                    style={{margin:"25px -10px 0 0", background:"rgb(53, 122, 196)", borderRadius:"10px"}}
                                 >
                                     {tabs.map((item, index) => 
                                         <Menu.Item style={{color:"white", fontSize:"20px"}} key={index+1}>

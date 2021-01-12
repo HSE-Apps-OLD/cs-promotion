@@ -103,63 +103,65 @@ export const otherClubInfo = {
 //courses and other learning resources
 export const courses = [
     {
-        name: "Intro to CS I",
+        name: "Intro to Computer Science",
         description: "Intro to Computer Science is a one-semester, beginner level computer science course intended for students in grades 9-10. The class includes block-based programming and problem-solving for students, and the class requires no prior computer science knowlege. \nPrerequisites: None. \nCredits: Fufills business graduation credit.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/introduction-to-computer-science"
     },
     {
         name: "AP Computer Science Principles (AP CSP)",
         description: "AP Computer Science Principles is an advanced placement, year-long, college-level computer science course aimed at teaching students 5 fundamental concepts of computer science throughout the year: Creative Development, Data, Algorithms and Programming, Computer Systems and Networks, and the Impact of Computing. This course is intended for all college bound students, not just those with a strong interest in computer science, and is inteded for students in grades 9-12.\nPrerequisites: Algebra I. \nCredits: Fufills business graduation credit and counts as 3rd science credit for Core 40 Diploma.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/ap-computer-science-principles"
     },
     {
         name: "CS I: Programming",
         description: "Computer Science I: Programming is a year-long course that focuses solely on introducing students to programming and teaching students the latest indsutry tools used in the field for grades 9-12. \nPrerequisites: Algebra I.\n Credits: Fufills business graduation credit and counts as 3rd science credit for Core 40 Diploma.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/computer-science-i-(programming)"
     },
     {
         name: "AP Computer Science A (Java) (AP CS A)",
         description: "AP Computer Science A (Java) is an advanced placement, year-long, college-level computer science course that focuses on teaching students Object-Oriented programming through the programming language Java. The classes prepares students for the AP Computer Science A Exam, which tests on concepts such as primitive types, objects, boolean expressions and conditionals, iteration, classes, single and multi-dimensional arrays, ArrayList, inheritance, and recursion. This class is recommended for students grades 10-12 that have taken a computer science course prior. Prerequisites: Computer Science I/AP Computer Science Principles (Subject to instructor approval). Credits: Counts as 3rd science credit for Core 40 Diploma.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/ap-computer-science-a"
     },
     {
         name: "CS III: Cybersecurity",
         description: "Computer Science III: Cybersecurity is a year long course inteded to teach students in grades 10-12 about the fundamentals of cybersecurity in the modern world, discussing topics such as security principles, personal security, cryptography, physical security, web security, malicious software, and networking fundamentals.\nPrerequiste: AP CS Principles or Computer Science I. \nCredits: Counts as 3rd science credit for Core 40 Diploma.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/computer-science-iii:-cybersecurity"
     },
     {
         name: "CS III: Software Development",
         description: "Computer Science III: Software Development is a year long course intended to help students learn the latest industry tools for web and mobile application development through self-study and collaboration. Students are encouraged to make an application for a client second semester and are expected to study and research the necessary tools for such development themselves. \nPrerequisite: AP Computer Science A (Java). Credits: Counts as 3rd Science Credit for Core 40.",
-        url: "https://hsecourses.netlify.app/course/"
+        url: "https://hsecourses.netlify.app/course/computer-science-iii:-software-development"
     },
     {
         name: "Interactive Media",
         description: "Interactive media is a semester long course for grades 10-12 that emphasizes the development of digitially generated or computer enhanced products using multimedia technologies. Such technologies include: video/audio production; digitial imaging; animation; website design, development, and management. This class also allows students to gain experience in various Adobe Suite applications, such as Illustrator, After Effects, Premiere Pro, Photoshop, etc.\nPrerequisites: None. \nCredits: Elective.",
-        url: "https://hsecourses.netlify.app/course/",
+        url: "https://hsecourses.netlify.app/course/interactive-media",
     },
     {
-        name: "Tech Squad (Cyberroyals Internship)",
-        description: "Tech Squad is for students in grades 10-12 who would like to help students and teachers at HSE or elsewhere with their devices and software through general technical support or repairs. Students can join by signing up through the Career Internship application to be placed as an intern at the HSE tech department or in another building.\nPrerequisites: None, however some technical knowledge is expected. \nCredits: Elective."
+        name: "Exploration Internship - Cyberoyals Tech Squad",
+        description: "Tech Squad is for students in grades 10-12 who would like to help students and teachers at HSE or elsewhere with their devices and software through general technical support or repairs. Students can join by signing up through the Career Internship application to be placed as an intern at the HSE tech department or in another building.\nPrerequisites: None, however some technical knowledge is expected. \nCredits: Elective.",
+        url: "https://hsecourses.netlify.app/course/career-exploration-internship---cyberoyals-tech-squad"
     },
     {
-        name: "Digital Applications and Responsibility (Digital Apps)",
-        description: "Digital Applications and Responsibility is a semester long course for students in grades 9-12 to learn how to work with Microsoft products such as powerpoint, word, and excel. Students also learn how to use spreadsheets, present to one another, and collaboration skills. \nPrerequisites: None. \nCredits: Fufills Business graduation credit, dual credit through IU. "
+        name: "Digital Applications and Responsibilities (Digital Apps)",
+        description: "Digital Applications and Responsibility is a semester long course for students in grades 9-12 to learn how to work with Microsoft products such as powerpoint, word, and excel. Students also learn how to use spreadsheets, present to one another, and collaboration skills. \nPrerequisites: None. \nCredits: Fufills Business graduation credit, dual credit through IU.",
+        url: "https://hsecourses.netlify.app/course/digital-applications-and-responsibilities"
     },
     {
-        name: "Ivy Tech - Infomatics & Networking",
-        description: "This year-long dual credit course through Ivy Tech offers students in grades 11-12 an opportunity to take 4 dual credit courses at Ivy Tech that are intended to prepare them for the CompTIA A+ and Network+ Certiication exams. Students attend 4 times a week, with a flex on the fifth day, from 12:15-2:15 at Ivy Tech Noblesville with transport provided. \nPrerequistes: CS I. \nCredits: 4 Dual Credits from Ivy Tech."
+        name: "IT Pathways: Coding, Networking, and Cybersecurity I and II",
+        description: "3 hr each - Cyber Security, Networking, and Coding! In this IT Pathway course, you will explore the world of Information Technology during your first year, then dive deeper into a specific field of your choice during your second year. Utilize CISCO software and participate in hands-on activities. Immerse yourself into projects related to authentic challenges and solutions found in current IT careers. Jumpstart your college and career goals by earning dual credits and certifications. \n ● Dual Credit: Ivy Tech (6-12 credits) INFM 109, SDEV 120; ITSP 15, DBMS 110 or ITSP 175, NETI 119 \n ● Certifications Available: CompTIA ITF+",
+        url: "https://hsecourses.netlify.app/course/it-pathways:-coding,-networking,-and-cybersecurity-i-and-ii"
     },
     {
-        name: "Career Internship",
-        description: "Career internships can be semester or year-long, and allow for 12th grade students to gain valuable, real-life experience in the computer science field prior to going to college or entering the workforce. Students attend for 1-2 periods, with 2 being recommended for those that have after school commitments. \nPrerequisites: Instructor and Counselor Approval. \nCredits: Elective."
+        name: "Career Exploration Internship",
+        description: "Career internships can be semester or year-long, and allow for 12th grade students to gain valuable, real-life experience in the computer science field prior to going to college or entering the workforce. Students attend for 1-2 periods, with 2 being recommended for those that have after school commitments. \nPrerequisites: Instructor and Counselor Approval. \nCredits: Elective.",
+        url: "https://hsecourses.netlify.app/course/career-exploration-internship"
     },
     {
         name: "Advance Career & Technical Ed College Credit",
         description: "This semester long course allows for students in grades 11-12 to gain credits at IUPUI Computing and Informatics classes, with a 50% discount for high school students. Students must be accepted as a high school student through IU, visit the link provided for more details. Prerequisites: Instructor, Counselor, IU Approval. \nCredits: IUPUI Computing and Informatics Credits.",
         url: "https://span.iupui.edu/about-the-program/programs/eligibility/computer-tech-program.html"
-    }
-
-   
+    }   
 ]
 export const recommendations = {
     "CS": [
@@ -240,12 +242,12 @@ export const projects = [
     {
         name: "Club Projects",
         projects: [
-            {
-                name: "HSE Apps",
-                description: "Group of students creating applications for HSE.",
-                image: hseappsProjects,
-                link: "https://hseapps.org/products"
-            },
+            // {
+            //     name: "HSE Apps",
+            //     description: "Group of students creating applications for HSE.",
+            //     image: hseappsProjects,
+            //     link: "https://hseapps.org/products"
+            // },
             {
                 name: "HSE Clubs",
                 description: "Manage, browse, and join clubs in one central place at HSE.",

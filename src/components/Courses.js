@@ -11,9 +11,8 @@ const Courses = () => {
 
             <div style={title}>Computing Courses At HSE</div>
             <div style={section}>
-                
                 <List
-                    style={{width:"65%", borderRadius:"15px", marginLeft: "auto", marginRight: "auto"}}
+                    style={{width:"100%", borderRadius:"15px", marginLeft: "auto", marginRight: "auto"}}
                     dataSource={courses}
                     bordered={true}
                     renderItem={item => 
@@ -22,13 +21,14 @@ const Courses = () => {
                                 title={item.name}
                                 description={item.description}
                             />
-                            <a href={item.url} target="_blank">More Info</a>
+                            <a style={{marginLeft:"20px"}} href={item.url} target="_blank">More Info</a>
                         </List.Item>
                     }
                 ></List>
-
             </div>
-            <img src={pathways} style={{width: "80%", marginTop: "0px", marginBottom: "50px"}}/>
+
+            <div style={title}>Computer Science Pathways (Prerequisites Web)</div>
+            <img src={pathways} style={{width: "80%", margin:"0 0 40px"}}/>
             
             <div style={title}>Sample Schedules for Certain Paths</div>
             <div style={{fontWeight: "500", fontSize: "10px", color: "rgba(0, 0, 0, 0.45)"}}>Don't need to take all courses listed in a particular year</div>
@@ -82,3 +82,4 @@ const Courses = () => {
 }
 
 export default Courses
+
