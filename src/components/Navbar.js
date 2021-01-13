@@ -28,31 +28,32 @@ const Navbar = () => {
         {name: "FAQ", image: <span style={{display: "inline-block", transform: "rotate(45deg) scale(1.2, .9)", filter: "drop-shadow(0 2px #b5daff)", color: "white"}}>&nbsp;?&nbsp;</span>, component: <Faq/>}
     ]
     window.addEventListener("resize", () => {setWidth(window.innerWidth)})
-    
+
 
     return (
         <div className="App">
             <div style={{
-                display:"flex", justifyContent:"space-between", alignItems:"center",
-                background:"#357ac4", width:"100%",
-                padding:"calc(.2vw + 10px) 25px", margin:"0 -5px"
+              display:"flex", justifyContent:"space-between", alignItems:"center",
+              background:"rgb(25 26 51 / 70%)", width:"100%",
+              padding:"calc(.2vw + 10px) 25px", margin:"0 -5px",
+              userSelect: "none"
             }}>
                 <div style={block}>
                     <img src={logo} style={{width:"50px"}}/>
-                    &nbsp;&nbsp; 
+                    &nbsp;&nbsp;
                     <div style={{color:"white", fontWeight:"500", fontSize:"24px"}}>HSE CS</div>
                 </div>
 
                 {width > 1200?
                     <>
                         <div style={{...block, height:"30px"}}>
-                            <Menu 
-                                mode="horizontal" 
+                            <Menu
+                                mode="horizontal"
                                 style={{backgroundColor:"transparent", color: "white", borderBottom:"none", fontSize:"16px", width:"500px"}}
                                 onClick={(e) => {setTab(e.key)}}
                                 defaultActiveFirst={tab}
                             >
-                                {tabs.map((item, index) => 
+                                {tabs.map((item, index) =>
                                     <Menu.Item style={{color:"white"}} key={index}>
                                         <div style={{height:"calc(40px + .4vw + 20px)", display:"flex", alignItems:"center", paddingBottom:"2px"}}>
                                             {item.image}&nbsp; {item.name}
@@ -76,9 +77,9 @@ const Navbar = () => {
                             overlay= {
                                 <Menu
                                     onClick={(e) => {setTab(e.key)}}
-                                    style={{margin:"25px -10px 0 0", background:"rgb(53, 122, 196)", borderRadius:"10px"}}
+                                    style={{margin:"25px -10px 0 0", background:"rgb(91 90 110 / 85%)", borderRadius:"10px"}}
                                 >
-                                    {tabs.map((item, index) => 
+                                    {tabs.map((item, index) =>
                                         <Menu.Item style={{color:"white", fontSize:"20px"}} key={index+1}>
                                             <div style={{display:"flex", alignItems:"center", padding:"5px 10px"}}>
                                                 {item.image}&nbsp; {item.name}
@@ -96,8 +97,8 @@ const Navbar = () => {
                     </>
                 }
             </div>
-            
-            
+
+
             {tabs[tab].component}
         </div>
     )
